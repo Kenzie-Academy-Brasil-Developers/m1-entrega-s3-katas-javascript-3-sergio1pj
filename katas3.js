@@ -52,14 +52,27 @@ function kata6(min, max) {
     return result;
 }
 showResults(kata6(3, 100));
-function kata7() {
+function kata7(min, max) {
     // implemente o código do kata 7 aqui
+     let result = [];
+     for (let i = max; i >= min; i--) {
+         if (i % 3 == 0 || i % 7 == 0) {
+             result.push(i)
+         }
+     }
+     return result;
 }
-
-function kata8() {
-    // implemente o código do kata 8 aqui
+showResults(kata7(3, 100));
+function kata8(min, max) {
+   let result = [];
+     for (let i = min; i <= max; i++) {
+         if (i % 2 != 0 && i % 5 == 0) {
+             result.push(i)
+         }
+     }
+     return result;
 }
-
+showResults(kata8(5, 100));
 function kata9() {
     // implemente o código do kata 9 aqui
 }
