@@ -104,14 +104,26 @@ function kata11(arr) {
     return result;
 }
 showResults(kata11(sampleArray));
-function kata12() {
+function kata12(arr) {
     // implemente o código do kata 12 aqui
+    let result = [];
+    for(let i = 0; i < arr.length; i++){
+        if(arr[i] % 8 == 0){
+            result.push(arr[i]);
+        }
+    }
+    return result;
 }
-
-function kata13() {
+showResults(kata12(sampleArray));
+function kata13(arr) {
     // implemente o código do kata 13 aqui
+    let result = [];
+    for(let i = 0; i < arr.length; i++){
+            result.push(arr[i] * arr[i]);
+    }
+    return result;
 }
-
+showResults(kata13(sampleArray));
 function kata14() {
     // implemente o código do kata 14 aqui
 }
