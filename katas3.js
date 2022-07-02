@@ -1,9 +1,17 @@
 const sampleArray = [469, 755, 244, 245, 758, 450, 302, 17, 712, 71, 456, 21, 398, 339, 882, 848, 179, 535, 940, 472];
-
-function kata1() {
-    // implemente o código do kata 1 aqui
+function showResults(result){
+    console.log(result)
+    return false;
 }
-
+function kata1(num) {
+    // implemente o código do kata 1 aqui
+    let result = [];
+    for(let i = 1; i <= num; i++) {
+        result.push(i);
+    }
+    return result;
+}
+showResults(kata1(25))
 function kata2() {
     // implemente o código do kata 2 aqui
 }
