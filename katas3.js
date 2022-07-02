@@ -35,16 +35,23 @@ function kata5(min, max) {
     let result = [];
     for(let i = max; i >= min; i--){
        if(i%2!=0){
-        result.push(i)
+        result.push(i);
        }
     }
     return result;
 }
 showResults(kata5(-25, 25));
-function kata6() {
+function kata6(min, max) {
     // implemente o código do kata 6 aqui
+    let result = [];
+    for (let i = min; i <= max; i++) {
+        if (i%3 == 0) {
+            result.push(i)
+        }
+    }
+    return result;
 }
-
+showResults(kata6(3, 100));
 function kata7() {
     // implemente o código do kata 7 aqui
 }
