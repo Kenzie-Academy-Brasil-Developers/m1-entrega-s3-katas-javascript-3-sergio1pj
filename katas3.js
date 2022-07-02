@@ -52,7 +52,7 @@ function kata6(min, max) {
     return result;
 }
 showResults(kata6(3, 100));
-function kata7(min, max) {
+function kata8(min, max) {
     // implemente o código do kata 7 aqui
      let result = [];
      for (let i = max; i >= min; i--) {
@@ -62,8 +62,8 @@ function kata7(min, max) {
      }
      return result;
 }
-showResults(kata7(3, 100));
-function kata8(min, max) {
+showResults(kata8(3, 100));
+function kata9(min, max) {
    let result = [];
      for (let i = min; i <= max; i++) {
          if (i % 2 != 0 && i % 5 == 0) {
@@ -72,17 +72,17 @@ function kata8(min, max) {
      }
      return result;
 }
-showResults(kata8(5, 100));
-function kata9(arr) {
+showResults(kata9(5, 100));
+function kata10(arr) {
     // implemente o código do kata 9 aqui
     let result = [];
-    for(let i = 0; i < 20; i++){
+    for(let i = 0; i < arr.length; i++){
         result.push(arr[i])
     }
     return result;
 }
-showResults(kata9(sampleArray));
-function kata10(arr) {
+showResults(kata10(sampleArray));
+function kata11(arr) {
     // implemente o código do kata 10 aqui
     let result = [];
     for(let i = 0; i < arr.length; i++){
@@ -92,8 +92,8 @@ function kata10(arr) {
     }
     return result;
 }
-showResults(kata10(sampleArray));
-function kata11(arr) {
+showResults(kata11(sampleArray));
+function kata12(arr) {
     // implemente o código do kata 11 aqui
     let result = [];
     for(let i = 0; i < arr.length; i++){
@@ -103,8 +103,8 @@ function kata11(arr) {
     }
     return result;
 }
-showResults(kata11(sampleArray));
-function kata12(arr) {
+showResults(kata12(sampleArray));
+function kata13(arr) {
     // implemente o código do kata 12 aqui
     let result = [];
     for(let i = 0; i < arr.length; i++){
@@ -114,8 +114,8 @@ function kata12(arr) {
     }
     return result;
 }
-showResults(kata12(sampleArray));
-function kata13(arr) {
+showResults(kata13(sampleArray));
+function kata14(arr) {
     // implemente o código do kata 13 aqui
     let result = [];
     for(let i = 0; i < arr.length; i++){
@@ -123,10 +123,7 @@ function kata13(arr) {
     }
     return result;
 }
-showResults(kata13(sampleArray));
-function kata14() {
-    // implemente o código do kata 14 aqui
-}
+showResults(kata14(sampleArray));
 
 function kata15() {
     // implemente o código do kata 15 aqui
