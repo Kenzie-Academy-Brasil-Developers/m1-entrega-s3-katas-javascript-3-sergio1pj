@@ -73,14 +73,26 @@ function kata8(min, max) {
      return result;
 }
 showResults(kata8(5, 100));
-function kata9() {
+function kata9(arr) {
     // implemente o código do kata 9 aqui
+    let result = [];
+    for(let i = 0; i < 20; i++){
+        result.push(arr[i])
+    }
+    return result;
 }
-
-function kata10() {
+showResults(kata9(sampleArray));
+function kata10(arr) {
     // implemente o código do kata 10 aqui
+    let result = [];
+    for(let i = 0; i < arr.length; i++){
+        if(arr[i] % 2 == 0){
+            result.push(arr[i]);
+        }
+    }
+    return result;
 }
-
+showResults(kata10(sampleArray));
 function kata11() {
     // implemente o código do kata 11 aqui
 }
