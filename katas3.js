@@ -93,10 +93,17 @@ function kata10(arr) {
     return result;
 }
 showResults(kata10(sampleArray));
-function kata11() {
+function kata11(arr) {
     // implemente o código do kata 11 aqui
+    let result = [];
+    for(let i = 0; i < arr.length; i++){
+        if(arr[i] % 2 != 0){
+            result.push(arr[i]);
+        }
+    }
+    return result;
 }
-
+showResults(kata11(sampleArray));
 function kata12() {
     // implemente o código do kata 12 aqui
 }
