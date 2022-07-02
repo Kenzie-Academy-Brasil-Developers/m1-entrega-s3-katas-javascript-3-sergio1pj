@@ -134,15 +134,24 @@ function kata14(arr) {
     return result;
 }
 showResults(kata14(sampleArray));
-
-function kata15() {
+function kata15(min, max) {
     // implemente o código do kata 15 aqui
+    let sum = 0;
+    for(let i = min; i <= max; i++) {
+        sum += i;
+    }
+    return sum;
 }
-
-function kata16() {
+showResults(kata15(1, 20));
+function kata16(arr) {
     // implemente o código do kata 16 aqui
+    let sum = 0;
+    for(let i = 0; i < arr.length; i++){
+        sum += arr[i]
+    }
+    return sum;
 }
-
+showResults(kata16(sampleArray));
 function kata17() {
     // implemente o código do kata 17 aqui
 }
