@@ -52,6 +52,16 @@ function kata6(min, max) {
     return result;
 }
 showResults(kata6(3, 100));
+function kata7(min, max) {
+    let result = [];
+    for (let i = min; i <= max; i++) {
+        if (i%7 == 0) {
+            result.push(i)
+        }
+    }
+    return result;
+}
+showResults(kata7(7, 100));
 function kata8(min, max) {
     // implemente o código do kata 7 aqui
      let result = [];
