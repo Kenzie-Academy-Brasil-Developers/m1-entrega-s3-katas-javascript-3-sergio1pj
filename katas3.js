@@ -119,7 +119,7 @@ function kata13(arr) {
     // implemente o código do kata 13 aqui
     let result = [];
     for(let i = 0; i < arr.length; i++){
-            result.push(arr[i] * arr[i]);
+        result.push(arr[i] * arr[i]);
     }
     return result;
 }
