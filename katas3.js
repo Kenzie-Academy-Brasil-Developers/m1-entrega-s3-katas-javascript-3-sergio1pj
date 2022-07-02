@@ -12,15 +12,15 @@ function kata1(min, max) {
     return result;
 }
 showResults(kata1(1, 25));
-function kata2(num) {
+function kata2(min, max) {
     // implemente o código do kata 2 aqui
     let result = [];
-    for(let i = num; i >= 1; i--) {
+    for(let i = max; i >= min; i--) {
         result.push(i);
     }
     return result;
 }
-showResults(kata2(25));
+showResults(kata2(1, 25));
 function kata3(num) {
     let result = [];
     for(let i = -1; i >= num; i--) {
