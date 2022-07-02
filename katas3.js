@@ -11,11 +11,16 @@ function kata1(num) {
     }
     return result;
 }
-showResults(kata1(25))
-function kata2() {
+showResults(kata1(25));
+function kata2(num) {
     // implemente o código do kata 2 aqui
+    let result = [];
+    for(let i = num; i >= 1; i--) {
+        result.push(i);
+    }
+    return result;
 }
-
+showResults(kata2(25));
 function kata3() {
     // implemente o código do kata 3 aqui
 }
