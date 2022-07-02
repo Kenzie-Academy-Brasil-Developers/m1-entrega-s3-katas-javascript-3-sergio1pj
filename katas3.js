@@ -3,15 +3,15 @@ function showResults(result){
     console.log(result)
     return false;
 }
-function kata1(num) {
+function kata1(min, max) {
     // implemente o código do kata 1 aqui
     let result = [];
-    for(let i = 1; i <= num; i++) {
+    for(let i = min; i <= max; i++) {
         result.push(i);
     }
     return result;
 }
-showResults(kata1(25));
+showResults(kata1(1, 25));
 function kata2(num) {
     // implemente o código do kata 2 aqui
     let result = [];
@@ -21,10 +21,14 @@ function kata2(num) {
     return result;
 }
 showResults(kata2(25));
-function kata3() {
-    // implemente o código do kata 3 aqui
+function kata3(num) {
+    let result = [];
+    for(let i = -1; i >= num; i--) {
+        result.push(i);
+    }
+    return result;
 }
-
+showResults(kata3(-25));
 function kata4() {
     // implemente o código do kata 4 aqui
 }
