@@ -21,18 +21,15 @@ function kata2(min, max) {
     return result;
 }
 showResults(kata2(1, 25));
-function kata3(num) {
-    let result = [];
-    for(let i = -1; i >= num; i--) {
-        result.push(i);
-    }
-    return result;
+function kata3(min, max) {
+    return kata2(min, max);
 }
-showResults(kata3(-25));
-function kata4() {
+showResults(kata3(-25, -1));
+function kata4(min, max) {
     // implemente o código do kata 4 aqui
+    return kata1(min, max);
 }
-
+showResults(kata4(-25, -1));
 function kata5() {
     // implemente o código do kata 5 aqui
 }
